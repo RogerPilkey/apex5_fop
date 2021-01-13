@@ -34,7 +34,7 @@ FOUserAgent userAgent;
 if (accessibleparam==null || accessibleparam.isEmpty()) {
     // (reuse if you plan to render multiple documents!)
     // RP: I think this would be reused if rendering multiple files, by putting it in a jsp declaration (<%!...) but it doesn't seem to matter here where we do one at a time
-    fopFactory = FopFactory.newInstance(new File(".").toURI());
+    fopFactory = FopFactory.newInstance(new File(request.getServletContext().getRealPath("fop.normal.conf")));
 
     // do the following for each new rendering run
     userAgent = fopFactory.newFOUserAgent();
