@@ -4,10 +4,10 @@ rem put these fop libraries here:
 
 rem ./WEB-INF
 rem ./WEB-INF/lib
-rem ./WEB-INF/lib/batik-all-1.13.jar
+rem ./WEB-INF/lib/batik-all-1.14.jar
 rem ./WEB-INF/lib/commons-io-1.3.1.jar
 rem ./WEB-INF/lib/commons-logging-1.0.4.jar
-rem ./WEB-INF/lib/fontbox-2.0.16.jar
+rem ./WEB-INF/lib/fontbox-2.0.19.jar
 rem ./WEB-INF/lib/fop.jar
 rem ./WEB-INF/lib/serializer-2.7.2.jar
 rem ./WEB-INF/lib/xalan-2.7.2.jar
