@@ -50,7 +50,8 @@ if (accessibleparam==null || accessibleparam.isEmpty()) {
     userAgent = fopFactory.newFOUserAgent();
     //RP: setting accessibility in conf file seems to be ignored...so set it in the userAgent
     userAgent.setAccessibility(true);
-
+    //userAgent.setKeepEmptyTags(false);  // I want to see tag flubs 
+	
     // PDF/UA-1 is better (passes PAC(!)), but fails and dies if input doesn't have all the metadata properties ...like the builtin IR download call , yay
     // FOP's PDF/A-1a output is tagged, but lots of artifacts, and doesn't have good metadata. works with Apex IR download, but fop doesn't include good stuff like it does for pdf/ua-1, nice (A for Archival quality)
 

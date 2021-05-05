@@ -9,6 +9,7 @@ rem ./WEB-INF/lib/commons-io-1.3.1.jar
 rem ./WEB-INF/lib/commons-logging-1.0.4.jar
 rem ./WEB-INF/lib/fontbox-2.0.19.jar
 rem ./WEB-INF/lib/fop.jar
+rem ./WEB-INF/lib/fop-hyph.jar
 rem ./WEB-INF/lib/serializer-2.7.2.jar
 rem ./WEB-INF/lib/xalan-2.7.2.jar
 rem ./WEB-INF/lib/xercesImpl-2.12.0.jar
